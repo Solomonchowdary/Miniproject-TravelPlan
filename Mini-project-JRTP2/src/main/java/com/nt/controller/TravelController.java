@@ -59,6 +59,8 @@ private Iservice service;
 	@GetMapping("/delete/{id}")
 	public String Delete(@PathVariable int  id) {
 		
+		
+		
 		return service.deleteTravelPlan(id);
 	}
 	
