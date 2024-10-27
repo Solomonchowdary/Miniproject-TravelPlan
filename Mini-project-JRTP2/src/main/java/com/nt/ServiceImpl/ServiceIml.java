@@ -64,7 +64,7 @@ private PlanCetogeryRepo palnRepo;
 		if(opt.isPresent())
 		{		
 			travelPlan.delete(opt.get());
-			return "Plan is deleted.... sucessfully,,,";
+			return "Plan is deleted.... sucessfully";
 		}
 		else
 			return "no plan id";
